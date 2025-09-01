@@ -21,7 +21,7 @@ def test_dashboard():
         )
         login_with_email_btn.click()
 
-        
+        #this is for email field
         email_field = wait.until(
             EC.visibility_of_element_located((By.CSS_SELECTOR, "input[autocomplete='email']"))
         )
